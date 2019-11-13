@@ -7,4 +7,8 @@ while i > 0:
 		break
 	else:
 		i = i - 1
-		print('密碼錯誤！您還剩', i,'次機會')
+		print('密碼錯誤！')
+		if i > 0:
+		    print('您還剩', i,'次機會')
+		else:
+			print('已錯三次！您的帳號將被鎖，請洽管理人員')
